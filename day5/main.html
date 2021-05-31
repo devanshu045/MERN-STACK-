@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign in to Github . Github</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <style>
+        body {
+  background-color: white;
+  font-family:'Courier New', Courier, monospace;
+    
+    font-size: 14px;
+    box-sizing: border-box;
+}
+.logo {
+  width: 48px;
+  height: 48px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 31px;
+}
+
+.LoginBox{
+  border: none;
+  margin-top: 30px;
+  position: relative;
+  top: 23px;
+  
+}
+h1{
+  padding: 8px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: -.5px;
+}
+.loginform{
+  margin: 10px;
+  border: 1px solid #f4f6fa;;
+  width: 308px;
+  height: 225px;
+  position: relative;
+  left: 606px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color:  #f4f6fa;
+  box-shadow: inset;
+}
+.form-groupemail label  {
+  display: block;
+  margin-bottom: 7px;
+  font-weight: 400;
+  text-align: left;
+  padding-top: 5px ;
+  padding-left: 5px;
+}  
+.form-groupemail input{
+  width: 270px;
+  height: 32px;
+  border-radius: 8px;
+  padding-left: 4px;
+}
+.form-grouppassword{
+  font-size: 14px;
+}
+.form-grouppassword label{
+padding-top: 6.5px;
+padding-top: 15px;
+
+}
+.form-grouppassword a{
+ display: contents; 
+ font-size: 12px;
+ position: relative;
+}
+.form-grouppassword a:hover{
+  text-decoration: none;
+  color: blue;
+}
+.form-grouppassword input{
+  width: 270px;
+  height: 32px;
+  border-radius: 8px;
+  padding-left: 4px;
+}
+.btn{
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold ;
+  height: 35px;
+ margin-top: 15px;
+ margin-bottom: 10px;
+}
+.form-signup{
+}
+.needsignup{
+  border: 2px solid #e1e2e4;
+  width: 308px;
+  height: 50px;
+  position: relative;
+  left: 615px;
+  margin-top: 50px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 13px;
+
+}
+.footer{
+  text-align: center;
+}
+.info{
+  font-size: 12px;
+  list-style: none;
+  position: relative;
+  left: 602px;
+  bottom: -50px;
+}
+.term, .privacy, .security, .contactus{
+  display: inline-block;
+  float: left;
+  padding: 5px;
+  text-align: center;
+}
+.contactus{
+  color: black;
+}
+    </style>
+  </head>
+  <body>
+    <div class="hedear">
+      <div class="col">
+        <a href="https://github.com/">
+          <img
+            src="photo\th.jpg"
+            alt="Logo of github"
+            class="logo"
+        /></a>
+      </div>
+    </div>
+    <div class="LoginBox">
+      <div class="signup"><h1>Sign in to GitHub</h1></div>
+      <form class="loginform" >
+        <div class="form-groupemail">
+          <label for="exampleInputEmail1">Username or email address</label>
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+          />
+        </div>
+        <div class="form-grouppassword">
+          <label for="exampleInputPassword">Password</label>
+          <a class="forgot" href="#">Forgot password?</a>
+          <input
+            type="password"
+            class="form-control"
+            id="exampleInputPassword1"
+          />
+        </div>
+        <button type="button" class="btn btn-success btn-block">Sign in</button>
+      </form>
+    </div>
+    <div class="form-signup">
+      <p class="needsignup">
+        New to GitHub?
+        <a  href="/join?source=login">Create an account</a>.
+      </p>
+    </div>
+    <div class="footer">
+      <ul class="info">
+        <li class="fa-term"><a class="term" href="#">Terms</a></li>
+        <li class="fa-privacy"><a href="#" class="privacy">Privacy</a></li>
+        <li class="fa-security"><a href="#" class="security">Security
+        </a></li>
+        <li class="fa-contactus"><a href="" class="contactus">Contact GitHub</a></li>
+      </ul>
+    </div>
+  </body>
+</htm
