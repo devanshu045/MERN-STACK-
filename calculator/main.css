@@ -1,0 +1,41 @@
+body{
+    background-image: url('photo\\pexels-pixabay-235985.jpg');
+    background-repeat: no-repeat;
+    max-width: 100%;
+    
+}
+.heading{
+   
+    text-align: center;
+    color: white;
+
+}
+.main{
+    text-align: center;
+    margin: auto;
+}
+#table{
+    margin: auto;
+    margin-top: 40px
+}
+input{
+    margin-top: 20px;
+    font-size: 50px;
+    border: 5px solid rgb(240, 192, 130);
+    border-radius: 20px;
+   
+
+}
+button{
+    font-size: 70px;
+    background-color: rgb(121, 57, 57);
+    border-radius: 10px;
+
+    width: 100px;
+    height: 80px;
+    padding: 5px 5px;
+
+}
+button:hover{
+    background-color: rgb(194, 102, 78);
+}
